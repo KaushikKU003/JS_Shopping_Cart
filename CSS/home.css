@@ -1,17 +1,12 @@
 
 .nav-bar>h1{
     font-family: 'Lobster', cursive;
-    /* padding: 15px;
-    margin-left: 45%; */
 }
 .nav-bar{
     display: flex;
     justify-content:space-between;
     align-items: center;
     background-color: #ffccb4;
-}
-.nav-bar>a>box-icon{
-    /* margin-right:60px; */
 }
 .container{
     background-color: #765d51;
