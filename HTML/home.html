@@ -25,92 +25,110 @@
             </a>
         </nav>
     </header>
-
+<br>
     <!-- items section -->
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images/shirt.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images/shirt.jpeg" style="object-fit: cover;" width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Shirts</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹699</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')">Add</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images/hoddie.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images/hoddie.jpeg" style="object-fit: cover;"  width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Hoddie</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹649</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')" >Add</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images/laptop.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images/laptop.jpeg" style="object-fit: cover;" width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">ASUS TUF Gaming</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹1,85,000</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')">Add</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images/bag.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images/bag.jpeg" style="object-fit: cover;" width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Skybags Bag</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹749</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')">Add</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images/airpod.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images/airpod.jpeg" style="object-fit: cover;" width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Air pod</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹1,199</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')">Add</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images/mobile.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images/mobile.jpeg" style="object-fit: cover;" width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mobile phone</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹12,499</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')">Add</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images//pant.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images//pant.jpeg" style="object-fit: cover;" width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Formal Pant</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹899</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')">Add</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="../Images/shoes.jpeg" class="card-img-top" alt="...">
+                    <img src="../Images/shoes.jpeg" style="object-fit: cover;" width="200" height="350" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nike Shoes</h5>
                         <p class="card-text">Some quick example text to build on the card title and
                         </p>
+                        <div class="amount">₹4,999</div>
+                        <button type="button" class="btn btn-outline-primary btn-sm add-cart" onclick="showAddedToCartMessage('Item added to cart 🛒')">Add</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="messageContainer" class="message-center"></div>
+    <script src="../JS/main.js"></script>
 </body>
 
 </html>

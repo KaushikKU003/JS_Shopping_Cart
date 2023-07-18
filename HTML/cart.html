@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" >
         <div class="container-fluid">
             <div class="navbar-brand">My Cart</div>
             <a href="../HTML/home.html">
@@ -26,35 +26,8 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 p-4">
-                <div class="card">
-                    <img src="../Images/shirt.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title ">Shirts</h5>
-                        <div>₹699</div>
-                        <input type="number" class="cart-quantity text-center" placeholder="Quantity" value="1" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 p-4">
-                <div class="card">
-                    <img src="../Images/pant.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title ">Formal Pant</h5>
-                        <div>₹899</div>
-                        <input type="number" class="cart-quantity text-center" placeholder="Quantity" value="1"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="total">
-            <div class="total-content">
-                <div>Total Amout:</div>
-                <hr>
-                <div>₹1,598</div>
-            </div>
-            <button>Order Now</button>
-        </div>
+            <div id="productContainer" class="close"></div>
+        <div id="messageContainer" class="message-center"></div>
         <script src="../JS/main.js"></script>
 </body>
 
