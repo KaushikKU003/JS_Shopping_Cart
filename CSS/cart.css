@@ -49,9 +49,7 @@ h5{
     font-family: 'Lobster', cursive;
     font-size: 3rem;
 }
-.cart-content{
-    background-color: red;
-}
+
 .total>button{
     display: block;
     margin: 0 auto;
